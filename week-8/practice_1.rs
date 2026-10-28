@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 fn main(){
 	//Using Vec::new();
 	let v : Vec<i64> = Vec::new();
@@ -12,3 +13,19 @@ fn main(){
 	//printing the size of vector
 	println!("\nThe length of vec macro is: {  }" , v.len())
 }
+=======
+fn main(){
+	//Using Vec::new();
+	let v : Vec<i64> = Vec::new();
+
+
+	//printing the size of vector
+	println!("\n The length of Vec::new is: {}", v.len());
+
+	//Using macro
+	let v = vec!["Cassandra", "Valerie" , "Shadaii", "Tito"];
+
+	//printing the size of vector
+	println!("\nThe length of vec macro is: {  }" , v.len())
+}
+>>>>>>> 76ae95a9528d66b0392fe386ccd3bd6b966d10cc
